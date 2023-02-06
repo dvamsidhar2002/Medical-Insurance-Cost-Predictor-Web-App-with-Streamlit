@@ -37,8 +37,8 @@ def main():
     sex = st.text_input('Sex: 0 -> Female, 1 -> Male')
     bmi = st.text_input('Body Mass Index')
     children = st.text_input('Number of Children')
-    smoker = st.text_input('Smoker')
-    region = st.text_input('Region of Living')
+    smoker = st.text_input('Smoker: 0 -> No, 1 -> Yes')
+    region = st.text_input('Region of Living: 0 -> NorthEast, 1-> NorthWest, 2-> SouthEast, 3-> SouthWest')
     
     #code for prediction
     diagnosis = ''
