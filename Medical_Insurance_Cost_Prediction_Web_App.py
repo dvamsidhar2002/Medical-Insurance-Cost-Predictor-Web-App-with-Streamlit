@@ -29,7 +29,7 @@ def medical_insurance_cost_prediction(input_data):
 def main():
     
     #giving a title
-    st.title('Medical Insurance Cost Prediction Web App')
+    st.title('Medical Insurance Prediction Web App')
     
     #getting input from the user
     
